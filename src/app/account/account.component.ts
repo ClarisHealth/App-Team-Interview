@@ -6,12 +6,12 @@ import { DataService } from 'app/services/data.service';
 import { IAccount } from 'app/types/i-accounts';
 
 @Component({
-    selector: 'app-table-list',
-    templateUrl: './table-list.component.html',
-    styleUrls: ['./table-list.component.css'],
+    selector: 'app-account',
+    templateUrl: './account.component.html',
+    styleUrls: ['./account.component.css'],
     animations: []
 })
-export class TableListComponent implements OnInit {
+export class AccountComponent implements OnInit {
     public accountColumns: string[] = ['Id', 'Limit', 'Products', 'Details'];
     public accountData: IAccount[]
 

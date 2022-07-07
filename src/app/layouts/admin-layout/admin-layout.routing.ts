@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 
-import { TableListComponent } from '../../table-list/table-list.component';
+import { AccountComponent } from '../../account/account.component';
 
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'table-list',     component: TableListComponent },
+    { path: 'account',     component: AccountComponent },
 ];
